@@ -1,0 +1,43 @@
+﻿
+
+
+
+
+<main class="main">
+
+    <div class="col-md-8 col-lg-6 offset-lg-3 mb-4 mb-lg-0 ">
+        <h2 style="text-align:center"> Form 5 </h2>
+        <h3 style="text-align:center"> Max , Average</h3>
+        <p style="text-align:center">Enter the 3 numbers and the result will appear on another page with the name of the operation that was entered</p>
+        <form class=" position-relative" method="post">
+
+            <div style="display: flex; align-items: center; width: 100%; padding-top:3%">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Number 1</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="no1" value="@TempData["no1"]" style="flex-grow: 1; width: auto;">
+            </div>
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Number 2</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="no2" value="@TempData["no2"]" style="flex-grow: 1; width: auto;">
+            </div>
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Number 3 </h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="no3" value="@TempData["no3"]" style="flex-grow: 1; width: auto;">
+            </div>
+            <div style="text-align: center;">
+                <input type="submit" name="b1" value="Max" class="btn btn-primary"
+                       style="width:150px; height:50px; background:#ff5821;color:#ffffff;border-radius:25px; margin-right:4%;margin-top:4%">
+
+
+                <input type="submit" name="b1" value="Average" class="btn btn-primary"
+                       style="width:150px; height:50px; background:#ff5821;color:#ffffff ;border-radius:25px; margin-top:4%">
+
+            </div>
+
+
+        </form>
+    </div>
+    <br> <br> <br><br><br><br>
+    <br>
+</main>

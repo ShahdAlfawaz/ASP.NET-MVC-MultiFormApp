@@ -1,0 +1,76 @@
+﻿<html lang="en">
+<head>
+	<title> Login </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="aos-init aos-animate" style="background-image: url(../../wwwroot/assets/img/hero-bg.jpg); height: 751px; ">
+	
+	<section id="hero" class="hero section dark-background">
+
+		<img src="~/assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="aos-init aos-animate">>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Login 😊</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+						<h3 class="mb-4 text-center"> Have an account?</h3>
+						<form action="#"  method="post">
+							<div >
+								<input type="text" class="form-control" placeholder="User Name" required="" name="name" value="@ViewBag.name" 
+								style="margin-top:15px;background-color: rgba(255, 255, 255, 0.5); border: none;color: white; font-size: 16px;padding: 15px;
+                                 border-radius: 5px; width: 300px; text-align: center; transition: background-color 0.3s ease-in-out;width:100% ">
+							</div>
+							<div class="form-group">
+								<input id="password-field" type="password" class="form-control" placeholder="Password" required="" name="pass" value="@ViewBag.pass" style="margin-top:15px;background-color: rgba(255, 255, 255, 0.5); border: none;color: white; font-size: 16px;padding: 15px;
+                                 border-radius: 5px; width: 300px; text-align: center; transition: background-color 0.3s ease-in-out;width:100% ">
+							</div>
+							<div class="form-group ">
+								<button type="submit" name="b1" value="Login" class="form-control btn btn-primary submit px-3" style="margin-top:15px;background-color:#ff5821;padding: 10px;width:50%; margin-left:25%">Login</button>
+							</div>
+							
+							<div class="form-group d-md-flex">
+								<div class="w-50">
+									<label class="checkbox-wrap checkbox-primary" style="margin-top:15px">
+										Remember Me
+										<input type="checkbox" checked="">
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								<div class="w-50 text-md-right" style=" margin-top:15px;margin-left:155px">
+									<a href="#" style="color: #fff ; ">Forgot Password</a>
+								</div>
+							</div>
+						</form>
+						<p class="w-100 text-center">— Or Sign In With —</p>
+						<div class="social d-flex text-center" >
+							<a href="#" class="px-2 py-2 mr-md-1 rounded" style=" margin-left:55px"><span class="ion-logo-facebook mr-2"></span> Facebook</a>
+							<a href="#" class="px-2 py-2 mr-md-1 rounded" style=" margin-left:25px"><span class="ion-logo-facebook mr-2"></span> Google </a>
+							<a href="#" class="px-2 py-2 ml-md-1 rounded" style=" margin-left:25px"><span class="ion-logo-twitter mr-2"></span> Twitter</a>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Status" name="status" value="@ViewBag.status">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+</body>
+</html>

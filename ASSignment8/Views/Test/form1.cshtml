@@ -1,0 +1,45 @@
+﻿
+
+
+
+
+<main class="main">
+
+    <div class="col-md-8 col-lg-6 offset-lg-3 mb-4 mb-lg-0 ">
+        <h2 style="text-align:center"> Form 1 </h2>
+        <h3 style="text-align:center" > Max , Min , Average</h3>
+        <p style="text-align:center">Type Two Numbers, then press the Max,Min or Avg to get the result </p>
+        <form class=" position-relative" method="post">
+
+            <div style="display: flex; align-items: center; width: 100%; padding-top:3%">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Number 1</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="t1" value="@ViewBag.t1" style="flex-grow: 1; width: auto;">
+            </div>
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Number 2</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="t2" value="@ViewBag.t2" style="flex-grow: 1; width: auto;">
+            </div>
+            
+            <div style="text-align: center;">
+                <input type="submit" name="b1" value="Max" class="btn btn-primary"
+                       style="width:150px; height:50px; background:#ff5821;color:#ffffff;border-radius:25px;"> 
+                <input type="submit" name="b1" class="btn btn-primary" value="Min"
+                       style="width:150px; height:50px; background:#ff5821;color:#ffffff ;border-radius:25px;">
+                
+            
+                <input type="submit" name="b1" value="Avg" class="btn btn-primary"
+                       style="width:150px; height:50px; background:#ff5821;color:#ffffff ;border-radius:25px;">
+               
+            </div>
+
+            <div style="display: flex; align-items: center; padding-top:3%">
+                <h5 style="margin-right: 56px;"> Count </h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="t3" placeholder="Result" value="@ViewBag.res" readonly style=" width:100%;">
+            </div>
+           
+        </form>
+    </div>
+    <br> <br> <br><br><br><br>
+    <br>
+</main>

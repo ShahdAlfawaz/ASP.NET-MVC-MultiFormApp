@@ -1,0 +1,38 @@
+﻿
+
+
+
+
+<main class="main">
+
+    <div class="col-md-8 col-lg-6 offset-lg-3 mb-4 mb-lg-0 ">
+        <h2 style="text-align:center"> Form 6 </h2>
+        <h3 style="text-align:center"> Max , Average</h3>
+        <p style="text-align:center">Display result form 5</p>
+        <form class=" position-relative" method="post">
+
+            <div style="display: flex; align-items: center; width: 100%; padding-top:3%">
+                <h5 style="margin-right: 18px; white-space: nowrap; padding-right:4.5%"> Result</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" readonly name="name" value="@TempData["res"]" style="flex-grow: 1; width: auto;">
+            </div>
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Operation </h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" readonly name="status" value="@TempData["oper"]" style="flex-grow: 1; width: auto;">
+            </div>
+
+           
+            <div style="text-align: center;">
+                <input type="submit" name="b1" value="Back" class="btn btn-primary"
+                       style="width:150px; height:50px; background:#ff5821;color:#ffffff;border-radius:25px; margin-right:4%;margin-top:4%">
+
+
+             
+            </div>
+
+
+        </form>
+    </div>
+    <br> <br> <br><br><br><br>
+    <br>
+</main>

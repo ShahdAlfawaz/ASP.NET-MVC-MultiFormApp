@@ -1,0 +1,49 @@
+﻿
+
+
+
+
+<main class="main">
+
+    <div class="col-md-8 col-lg-6 offset-lg-3 mb-4 mb-lg-0 ">
+        <h2 style="text-align:center"> Form 2 </h2>
+        <h3 style="text-align:center"> Sum ,Subtraction ,Dvision</h3>
+        <p style="text-align:center"> Type Two Numbers, then press the Add (to Sum),Sub (to subtraction) or Div (to division ) to get the result
+        </p>
+        <form class=" position-relative" method="post">
+
+            <div style="display: flex; align-items: center; width: 100%; padding-top:3%">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Number 1</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="n1"  value="@ViewBag.n1" style="flex-grow: 1; width: auto;">
+            </div>
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Number 2</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="n2" value="@ViewBag.n2" style="flex-grow: 1; width: auto;">
+            </div>
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <h5 style="margin-right: 18px; white-space: nowrap;"> Operations </h5>
+                <select name="Op" class="form-select form-control" style="padding:2.5%">
+                    <option value="0"> Add</option>
+                    <option value="1"> Sub</option>
+                    <option value="2"> Div</option>
+                </select>
+            </div>
+
+            <div style="text-align: center;">
+                <input type="submit" readonly  value="Result" class="btn btn-primary"
+                       style="width:150px; height:50px; background:#ff5821;color:#ffffff;border-radius:25px; margin-top:3%">
+               
+            </div>
+
+            <div style="display: flex; align-items: center; padding-top:3%">
+                <h5 style="margin-right: 56px;"> Count </h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" readonly value="@ViewBag.res" style=" width:100%;">
+            </div>
+
+        </form>
+    </div>
+    <br> <br> <br><br><br><br>
+    <br>
+</main>

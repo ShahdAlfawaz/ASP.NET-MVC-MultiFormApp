@@ -1,0 +1,38 @@
+﻿
+
+
+
+
+<main class="main">
+
+    <div class="col-md-8 col-lg-6 offset-lg-3 mb-4 mb-lg-0 ">
+        <h4 style="text-align:center"> Form 8 </h4>
+        <h5 style="text-align:center">   Displays the information previously entered with the total </h5>
+        <form class=" position-relative" method="post">
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <h5 style="margin-right: 18px; white-space: nowrap;">Product Name</h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="pName" value="@ViewBag.pName" style="flex-grow: 1; width: auto;">
+            </div>
+
+            <div style="display: flex; align-items: center;">
+                <h5 style="margin-right: 105px;"> Price </h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="price" value="@ViewBag.price" style=" width:100%;">
+            </div>
+            <div style="display: flex; align-items: center;">
+                <h5 style="margin-right: 95px;"> Count </h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="count" value="@ViewBag.count" style=" width:100%;">
+            </div>
+            <div style="display: flex; align-items: center;">
+                <h5 style="margin-right: 105px;"> Total </h5>
+                <input type="text" class="form-control px-2 py-3 bg-transparent mb-3" name="total" value="@ViewBag.total" style=" width:100%;">
+            </div>
+            <div style="text-align: center;">
+                <input type="submit" name="b1" value="Back" style=" width:20%;height:50%;margin-bottom:25px; margin-left:50px;margin-right:50px;padding-top:15px;padding-bottom:15px ;background:#ff5821;color:#ffffff ;border-radius:20px;" />
+
+            </div>
+        </form>
+    </div>
+    <br> <br> <br><br><br><br>
+    <br>
+</main>
